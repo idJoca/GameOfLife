@@ -30,3 +30,4 @@ or, for advanced players, by creating patterns with particular properties.
 - The **right mouse key** deletes a cell.
 - The **scroll wheel** changes the zoom.
 - The **Z** key goes one frame at a time.
+- The **F11** key toggles the fullscreen mode
