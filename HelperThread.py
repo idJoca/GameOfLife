@@ -56,7 +56,7 @@ class MyThread(threading.Thread):
         for i in range(0, self.cols):
             for j in range(0, self.rows):
                 self.neighborsAlive = self.evaluateNeighbors(i, j, self.grid)
-                if(self.grid[i][j] == 1 and (self.neighborsAlive < 2 or self.neighborsAlive > 3)):
+                if(self.grid[i][j] == 1 and (self.neighborsAlive < 2 or self.neighborsAlive > 4)):
                     self.newGrid[i][j] = 0
                 elif(not(self.grid[i][j] == 1) and self.neighborsAlive == 3):
                     self.newGrid[i][j] = 1
